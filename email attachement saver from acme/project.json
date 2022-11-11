@@ -1,10 +1,12 @@
 {
-  "name": "email attachement saver from acme",
-  "description": "email attachement saver from acme",
-  "main": "Development_1.xaml",
+  "name": "Build_Your_First_Process_With_Studio",
+  "description": "Blank Process",
+  "main": "Development_2.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
-    "UiPath.System.Activities": "[21.10.3]"
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -13,7 +15,6 @@
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
-    "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
     "requiresUserInteraction": true,
@@ -25,8 +26,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
-    "pipType": "ChildSession"
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -44,8 +44,8 @@
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
-      "filePath": "Development_1.xaml",
-      "uniqueId": "65c24706-4a01-44cf-8283-1913f87ec6c2",
+      "filePath": "Development_2.xaml",
+      "uniqueId": "267d4cf7-1668-4816-af01-e24f7057917b",
       "input": [],
       "output": []
     }
@@ -53,5 +53,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Legacy"
 }
