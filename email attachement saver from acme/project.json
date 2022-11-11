@@ -1,17 +1,17 @@
 {
-  "name": "Build_Your_First_Process_With_Studio",
+  "name": "BuildYourFirstProcess",
   "description": "Blank Process",
-  "main": "Development_2.xaml",
+  "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
-    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.System.Activities": "[21.10.4]",
     "UiPath.UIAutomation.Activities": "[21.10.5]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.10.3.0",
+  "studioVersion": "21.10.5.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -41,11 +41,11 @@
     "fileInfoCollection": [],
     "modernBehavior": true
   },
-  "expressionLanguage": "CSharp",
+  "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Development_2.xaml",
-      "uniqueId": "267d4cf7-1668-4816-af01-e24f7057917b",
+      "filePath": "Main.xaml",
+      "uniqueId": "c16fc0a2-980a-46b4-9f76-58b0c2b60253",
       "input": [],
       "output": []
     }
