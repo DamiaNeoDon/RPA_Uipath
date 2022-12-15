@@ -1,0 +1,24 @@
+Unable To Detect Elements On Adobe Acrobat 2022 Version After It Was Upgraded
+Printable View
+« Go Back
+Information
+ 
+Article Number	000004935
+Title	Unable To Detect Elements On Adobe Acrobat 2022 Version After It Was Upgraded
+URL Name	Unable-to-detect-elements-on-Adobe-Acrobat-2022-version-after-it-was-upgraded
+Product Component	UI Systems
+Sub Component	UIAutomation Modern
+Studio Version	All; 2020.10.7
+Orchestrator Version	N/A
+Question	Why are the elements not being detected after Adobe reader was upgraded to 22.0 version ?
+Issue Description + Resolution	
+There is a new security feature in Acrobat Reader, version > 2022.003.20258. It seems to be enabled by default. “Enable Protected Mode at startup” has to be disabled to allow injection in the target process. To achieve this, follow the below steps:
+
+Open Adobe Acrobat or Adobe Reader.
+Click Edit.
+Select Preferences.
+Select Security (Enhanced).
+Uncheck Enable Protected Mode at startup.
+Click OK.
+Close the Adobe program.
+Open Adobe Acrobat or Adobe Reader again.
