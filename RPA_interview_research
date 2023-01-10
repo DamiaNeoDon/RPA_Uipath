@@ -110,7 +110,19 @@ step into - highlights current step
 step out, - exec the setp and puse the debugger
 step over,- skips
 analyze the log files
-
 ~breakpoints,
+
+
+# bot sizing/estimation
+multiple factors: sla, volume, app availability
+
+bots required =volume x average processing time / or bot runtime in minutes= number of hours app is available #### used in batch run, availability for given amount of time, few times a day
+
+### RPA worthy processes:
+-rule based - no human decisions
+-routine and well defined - no frequent changes
+-complex, multi-app (do not force sth that can be done by, batch script, macros, shortcuts)
+-huge daily volume-work 24/7
+-structured input data- 
 
 
