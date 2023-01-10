@@ -43,4 +43,14 @@ have the flowcharts properly linked with the description.
 have the process flows properly grouped.
 have the dependencies mapped correctly.
 
+### system logs
+robot logs
+execution logs
+
+#custom logs
+workflow entry and exit
+ticket numbers ect
+major business validation results
+decision control flow, if else, switch ect
+exceptions
 
