@@ -92,7 +92,25 @@ partial # contains no info about toplevel window
   -row number based processing (eg 2 bots, starting from row 1 and row 500 atst,  atthesametime
   
  
-  distribution
-  
+# solution deployment
+-publish through studio/download/upload package, eg. as with artifacts in jenkins
+
+
+How deployment is done in UiPath?
+Deploy
+In Oracle Cloud Marketplace, go to the UiPath Orchestrator page: Click Get App. Follow the on-screen prompts.
+To deploy a UiPath Robot to one or more instances and connect to an existing Orchestrator, go to the UiPath Robot and Studio page: Click Get App. Follow the on-screen prompts.
+
+https://www.youtube.com/watch?v=Y5WCApQ8scQ&list=PLshmhVUaIq3n69KcuqrKneJXx7qsrQ6L6&index=21
+
+#debugging
+use:
+step into - highlights current step
+
+step out, - exec the setp and puse the debugger
+step over,- skips
+analyze the log files
+
+~breakpoints,
 
 
