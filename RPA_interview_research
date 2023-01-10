@@ -67,3 +67,18 @@ NAS- network attached storage, used to run VM with OS windows
 
 https://www.youtube.com/watch?v=iT9ye07IVYY&list=PLshmhVUaIq3n69KcuqrKneJXx7qsrQ6L6&index=16 pl 16 
 
+##Finetuning the selector # application version changes the GUI, or website version changes
+full # contains all elements to id any ui element
+partial # contains no info about toplevel window
+
+#fixes
+-wildcards eg "*" represents 0 or more characters "?" represents a single character
+-Dynamic Value through variable eg ID number, url- url can end with dynamic document version,date, number
+-Image recognition (trading view add had the same format(window size) but different content add, used to autoclose)
+-screen coordinates, (absolute and relative to, center, mouse pointer ) 
+
+
+
+
+
+
