@@ -79,6 +79,20 @@ partial # contains no info about toplevel window
 
 
 
-
+# bulk data handling  10k transactions +
+  # challenges : storage and distribution:
+  storage:
+ - centralised mechanism eg orchestrator queue/work item queue
+ - DB SQL server, access DB
+ - Shared file -excel, csv
+  
+  distribution:
+  -predefined rules offered by the server
+  -using flags to differentiate the transactions
+  -row number based processing (eg 2 bots, starting from row 1 and row 500 atst,  atthesametime
+  
+ 
+  distribution
+  
 
 
