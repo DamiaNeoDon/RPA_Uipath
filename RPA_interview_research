@@ -35,13 +35,23 @@ Run Book.
 
 
 Good process documentation should:
+
 be easy to understand.
-contain a high level description.
-contain step by step description with screenshots.
-contain flowcharts.
-have the flowcharts properly linked with the description.
-have the process flows properly grouped.
-have the dependencies mapped correctly.
+contain a high level description
+contain step by step description with screenshots
+contain flowcharts
+have the flowcharts properly linked with the description
+have the process flows properly grouped
+have the dependencies mapped correctly
+have the stakeholders listed
+have the SLA's listed
+be accompanied by a test plan
+be accompanied by example input materials
+be complete & proper scoped
+Mind the unhappy flow
+Mind the recovery flow
+Mind the reporting
+
 
 ### system logs
 robot logs
@@ -125,4 +135,6 @@ bots required =volume x average processing time / or bot runtime in minutes= num
 -huge daily volume-work 24/7
 -structured input data- 
 
+
+PDD # process definition doc/ process design document
 
