@@ -18,6 +18,7 @@ https://www.youtube.com/watch?v=37kyyKnkN30&list=PLshmhVUaIq3n69KcuqrKneJXx7qsrQ
 
 SDD solution definition document
 PDD project definition doc
+PDD # process definition doc/ process design document
 
 BRD - Business Requirement Document (BRD)
 
@@ -136,5 +137,5 @@ bots required =volume x average processing time / or bot runtime in minutes= num
 -structured input data- 
 
 
-PDD # process definition doc/ process design document
+
 
